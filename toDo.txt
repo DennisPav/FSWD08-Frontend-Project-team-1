@@ -1,0 +1,19 @@
+PAGES:
+-Landing Page / Home?
+-Home
+-Gallery Overview
+-Gallery
+--masonry
+--loop through json data
+-About
+-Gear
+
+COMPONENTS:
+-nav
+--Language select in nav
+--dropdown for galleries
+-footer
+
+SCRIPTS/DATA:
+-Json pics
+-Language redirect
