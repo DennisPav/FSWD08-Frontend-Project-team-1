@@ -1,6 +1,8 @@
 
 var pics = JSON.parse(photos);
-console.log(pics);
+console.log(Object.values(pics) == "akt");
+
+
 
 /*console.time("test");
 function appendToHtml(object, callback) {
@@ -33,12 +35,12 @@ function appendToHtml(object, callback) {
 	for (let i=0; i<pics.length; i++) {
 		html += `<div class="grid-item col-sm-6 col-md-4"><div class="grid-item-content"><img src="img/${pics[i].file}"></div></div>`;
 	}
-
-	document.getElementById("test").innerHTML += html;
+	console.log(html);
+	document.getElementById("gallery-container").innerHTML += html;
 	
 	return new Promise(function(resolve, reject) {
 		setTimeout(function() {
-			resolve();}, 20);
+			resolve();}, 50);
 		});
 }
 
@@ -52,7 +54,29 @@ $('.grid').masonry({
 	})
 }
 
-appendToHtml(pics).then(loadMasonry);
+/*appendToHtml(pics).then(loadMasonry);*/
+
+if (document.getElementById("portrait")) {
+	var pics = pics.filter(obj => {
+	return obj.category === "akt";});
+
+	appendToHtml(pics).then(loadMasonry);
+} else if ("street") {
+	var pics = pics.filter(obj => {
+	return obj.category === "street";});
+
+	appendToHtml(pics).then(loadMasonry);
+} else if ("travel") {
+	var pics = pics.filter(obj => {
+	return obj.category === "travel";});
+
+	appendToHtml(pics).then(loadMasonry);
+} else {
+	var pics = pics.filter(obj => {
+	return obj.category === "diverse";});
+
+	appendToHtml(pics).then(loadMasonry);
+}
 
 
 /*
@@ -61,4 +85,4 @@ setTimeout("loadMasonry()", 100);*/
 // onload, onready
 // $(document).ready(function(){})
 // document.readystate
-maybe generator function? see: https://www.freecodecamp.org/news/javascript-from-callbacks-to-async-await-1cc090ddad99/
+/*maybe generator function? see: https://www.freecodecamp.org/news/javascript-from-callbacks-to-async-await-1cc090ddad99/*/
