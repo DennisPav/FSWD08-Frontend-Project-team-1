@@ -7,8 +7,8 @@
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link type="text/css" href="css/-landing.css" rel="stylesheet">
-
+    <link type="text/css" href="css/_landing.css" rel="stylesheet">
+   
     <!-----------------------------------------------------------Bootstrap4 css----------------------------------------------------------------------->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-----------------------------------------------------------Bootstrap4 js------------------------------------------------------------------------>
@@ -22,17 +22,19 @@
     <!---------------------------------------------------------------font-awesome----------------------------------------------------------------------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-------------------------------------------------------------google-font--------------------------------------------------------------------------->
-    <link href="https://fonts.googleapis.com/css?family=Stoke&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Stoke&display=swap" rel="stylesheet">   
+
 </head>
 
 
 <body>
+
     <div class="container-fluid ">
         <div class="jumbotron-fluid justify-content-center" id="hero">
             
-                <h1 class="display-4 text-light text-center p-4 wow slideInLeft"> Photography by</h1>
-                <h1 class="display-2 text-light text-center m-3 wow slideInRight"> Dessislaw Pajakoff</h1>
-                <ul class="nav justify-content-center p-3 wow slideInLeft">
+                <h1 class="display-4 text-light text-center p-4 wow zoomIn"> Photography by</h1>
+                <h1 class="display-2 text-light text-center m-3 wow zoomIn"> Dessislaw Pajakoff</h1>
+                <ul class="nav justify-content-center p-3 wow zoomIn">
                     <li class="nav-item list-item">
                         <a class="nav-link text-light" href="#">Home</a>
                     </li>
@@ -64,10 +66,40 @@
 
 
 
-    <script>
-        var wow = new WOW();
-        wow.init();
+    <script type="text/javascript">
+         
+     var wow = new WOW();
+     wow.init();
+
+    
+    /*function changeImage() {   
+        var BackgroundImg=["../img/img433.jpg",
+            "../img/H703026-R1-26-27.jpg",
+            "../img/H703028-R1-12-13.jpg"
+        ];
+        var i = Math.floor((Math.random() * 3));
+        document.body.style.backgroundImage = 'url("' + BackgroundImg[i] + '")';
+    }
+    window.setInterval(changeImage, 5000);
+    */
+        
+   /*  var images = ["img433.jpg", "H703026-R1-26-27.jpg", "H703026-R1-12-13.jpg"];
+        $(function () {
+            var i = 0;
+            $("#hero").css("background-image", `url(../img/${images[i]})`);
+            setInterval(function () {
+                i++;
+                if (i == images.length) {
+                    i = 0;
+                }
+                $("#hero").css("background-image", `url(../img/${images[i]})`);
+                });
+            }, 5000);
+    */
+     
+
     </script>
 </body>
+
 
 </html>
