@@ -61,12 +61,12 @@ if (document.getElementById("portrait")) {
 	return obj.category === "akt";});
 
 	appendToHtml(pics).then(loadMasonry);
-} else if ("street") {
+} else if (document.getElementById("street")) {
 	var pics = pics.filter(obj => {
 	return obj.category === "street";});
 
 	appendToHtml(pics).then(loadMasonry);
-} else if ("travel") {
+} else if (document.getElementById("travel")) {
 	var pics = pics.filter(obj => {
 	return obj.category === "travel";});
 
