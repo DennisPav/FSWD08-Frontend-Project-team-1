@@ -17,11 +17,11 @@
     font-size: 3em !important;
 }
 
-a {
+a.whitelink {
 	color: #f8f9fa!important;
 }
 
-a:hover {
+a.whitelink:hover {
 	text-decoration: underline !important;
 	color: #fff !important;
 }
