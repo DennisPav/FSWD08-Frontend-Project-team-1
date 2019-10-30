@@ -3,17 +3,30 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Gallery page sample</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- If IE use the latest rendering engine -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Set the page to the width of the device and set the zoom level -->
+  <meta name="viewport" content="width = device-width, initial-scale = 1">
+  <title>Pajaphot</title>
+  <!-- css   -->
+  <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- local css -->
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- js libraries: jquery, popper, bootstrap, fontawesome -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/b0240f81b7.js" crossorigin="anonymous"></script>
+  <!-- masonry library -->
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=Stoke&display=swap" rel="stylesheet">
 </head>
 
 <body class="nicebg">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- nav -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand ml-5" href="home.html">Pajaphot</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -22,12 +35,6 @@
       <ul class="navbar-nav ml-5 ">
         <li class="nav-item ">
           <a class="nav-link" href="home.html">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">ABOUT</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="contact.html">CONTACT</a>
         </li>
         <li class="nav-item dropdown dmenu">
           <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDrop" aria-haspopup="true" aria-expanded="false">
@@ -43,15 +50,21 @@
         <li class="nav-item ">
           <a class="nav-link" href="equipment.html">EQUIPMENT</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
       </ul>
       <ul class="navbar-nav ml-auto ">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            LANGUAGE
+            language
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-            <a class="dropdown-item" href="../de/home.html">deutsch</a>
-            <a class="dropdown-item" href="../en/home.html">english</a>
+            <a class="dropdown-item" href="../de/gallery-street.html">deutsch</a>
+            <a class="dropdown-item" href="../en/gallery-street.html">english</a>
           </div>
         </li>
       </ul>
@@ -69,34 +82,36 @@
     <div id="caption"></div>
   </div>
   <!-- footer -->
-  <div class="container-fluid">
-    <div class="jumbotron-fluid text-light bg-dark mt-5">
-      <div class="row">
-        <div class="col-md-4 mt-5 d-none d-lg-block">
-          <h1 class="display-3 text-center ">Pajaphot</h1>
-        </div>
-        <div class="col-md-6 col-lg-4 text-center mt-5">
-          <p><b>Address: </b>Vienna</p>
-          <p><b>Country: </b>Austria</p>
-          <p><b>Phone: </b>+43 676 573 42 92</p>
-          <p><b>Email: </b>pajaphot@gmail.com</p>
-        </div>
-        <div class="col-md-6 col-lg-4 mt-5">
-          <p class="text-center"><a href="#" class="fa  fa-instagram footer-fa footer-insta ml-3"> dessislaw</a></p>
-          <p class="text-center"><a href="#" class="fa fa-facebook footer-fa ml-3"> Facebook Acc</a></p>
-          <p class="text-center"><a href="#" class="fa fa-instagram footer-fa ml-3"> arachnoidpix</a></p>
-        </div>
+  <div class="jumbotron-fluid text-light bg-dark mt-5">
+    <div class="row">
+      <div class="col-md-4 mt-5 d-none d-lg-block">
+        <h1 class="display-5 text-center ">Pajaphot</h1>
       </div>
-      <hr>
-      <div class="row">
-        <div class="col-md-12 mt-1">
-          <p class="text-center">&copy; Dessislaw Pajakoff</p>
-        </div>
+      <div class="col-md-6 col-lg-4 text-center mt-5">
+        <p><b>Address: </b>Vienna</p>
+        <p><b>Country: </b>Austria</p>
+        <p><b>Phone: </b>+43 676 573 42 92</p>
+        <p><b>Email: </b>pajaphot@gmail.com</p>
+      </div>
+      <div class="col-md-6 col-lg-4 mt-5">
+        <p class="text-center"><a href="#" class="fa  fa-instagram footer-fa footer-insta ml-3"> dessislaw</a></p>
+        <p class="text-center"><a href="#" class="fa fa-facebook footer-fa ml-3"> Facebook Acc</a></p>
+        <p class="text-center"><a href="#" class="fa fa-instagram footer-fa ml-3"> arachnoidpix</a></p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12 mt-1">
+        <p class="text-center">&copy; Dessislaw Pajakoff</p>
       </div>
     </div>
   </div>
+  <!-- scroll button -->
+  <div id="scrollBtn"><span>^</span></div>
+  <!-- javascript -->
   <script src="../data/photos.json" charset="utf-8"></script>
   <script src="../js/script-gallery.js"></script>
+  <script src="../js/scroll.js"></script>
 </body>
 
 </html>
