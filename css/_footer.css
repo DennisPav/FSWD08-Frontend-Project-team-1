@@ -1,8 +1,10 @@
 
-.fa{
-    color: #fff;
-    font-size: 3em!important;
+.footer-fa{
+    color: #dfdfdf;
+    font-size: 2em!important;
+    
 }
 .fa:hover{
-    color: #d1d1d1;
+    color:#5f5f5f;   
+    text-decoration: none;
 }
