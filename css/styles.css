@@ -21,6 +21,9 @@ h1, .h1{
 
     #heading1 {font-size: 1.8rem;}
     #heading2 {font-size: 2.3rem;}
+ #equipmentHeader1 {font-size: 3.0rem}
+    #equipmentHeader2 {font-size: 1.0rem}
+    #equipment { min-height: 100% }
 
 @media (min-width: 576px) {
 	#heading1 {font-size: 2rem;}
