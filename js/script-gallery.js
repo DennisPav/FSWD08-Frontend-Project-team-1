@@ -5,7 +5,7 @@ function appendToHtml(object, callback) {
 
 	var html = "";
 	for (let i=0; i<pics.length; i++) {
-		html += `<div class="grid-item col-sm-6 col-md-4" onclick="showImage('../img/${pics[i].file}')"><div class="grid-item-content"><img src="../img/compressed_${pics[i].file}"></div></div>`;
+		html += `<div class="grid-item col-sm-6 col-md-4" onclick="showImage('../img/${pics[i].file}', '<p>${pics[i].text}</p>')"><div class="grid-item-content"><img src="../img/compressed_${pics[i].file}"></div></div>`;
 	}
 	console.log(html);
 	document.getElementById("gallery-container").innerHTML += html;
@@ -52,10 +52,12 @@ if (document.getElementById("portrait")) {
 
 var modal = document.getElementById("modal-root");
 var modalImg = document.getElementById("image");
+var modalCaption = document.getElementById("caption");
 
-function showImage(image) {
+function showImage(image, caption) {
 	modal.style.display = "block";
 	modalImg.src = image;
+	modalCaption.innerHTML = caption; 
 }
 
 var span = document.getElementsByClassName("close")[0];
