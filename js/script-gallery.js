@@ -1,62 +1,54 @@
 
 var pics = JSON.parse(photos);
 
-$('body').click(function (event) {
-	if(!$(event.target).closest('#myModal').length && !$(event.target).is('#myModal')) {
-		$()
-	}
-})
-
 function appendToHtml(object, callback) {
 
 	var html = "";
 	for (let i=0; i<pics.length; i++) {
-		html += `<div class="grid-item col-sm-6 col-md-4" onclick="showImage('../img/${pics[i].file}')"><div class="grid-item-content"><img src="../img/${pics[i].file}"></div></div>`;
+		html += `<div class="grid-item col-sm-6 col-md-4" onclick="showImage('../img/${pics[i].file}')"><div class="grid-item-content"><img src="../img/compressed_${pics[i].file}"></div></div>`;
 	}
 	console.log(html);
 	document.getElementById("gallery-container").innerHTML += html;
 	
 	return new Promise(function(resolve, reject) {
 		setTimeout(function() {
-			resolve();}, 50);
+			resolve();}, 500);
 		});
 }
 
 function loadMasonry () {
-
-$('.grid').masonry({
-		itemSelector: '.grid-item',
-		columnWidth: '.grid-sizer',
-		percentPosition: true,
-		transitionDuration: '0.2s'
-	})
+	$('.grid').masonry({
+			itemSelector: '.grid-item',
+			columnWidth: '.grid-sizer',
+			percentPosition: true,
+			transitionDuration: 0
+		});
 }
-
-/*appendToHtml(pics).then(loadMasonry);*/
 
 if (document.getElementById("portrait")) {
 	var pics = pics.filter(obj => {
-	return obj.category === "akt";});
+	return obj.category === "portrait";});
 
 	appendToHtml(pics).then(loadMasonry);
+
 } else if (document.getElementById("street")) {
 	var pics = pics.filter(obj => {
 	return obj.category === "street";});
 
 	appendToHtml(pics).then(loadMasonry);
+
 } else if (document.getElementById("travel")) {
 	var pics = pics.filter(obj => {
 	return obj.category === "travel";});
 
 	appendToHtml(pics).then(loadMasonry);
-} else {
+
+} else if (document.getElementById("diverse")) {
 	var pics = pics.filter(obj => {
-	return obj.category === "diverse";});
+	return obj.category === "akt";});
 
 	appendToHtml(pics).then(loadMasonry);
 }
-
-
 
 var modal = document.getElementById("modal-root");
 var modalImg = document.getElementById("image");
@@ -71,7 +63,6 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
-
 
 // document.getElementById("modal-root").addEventListener('click', rootclick, false);
 document.querySelector("#modal-root:not(#image)").addEventListener('click', rootclick, true);
