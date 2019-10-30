@@ -3,7 +3,7 @@
     background-image: url("../img/img433.jpg");
     background-size: cover;
     background-position: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     padding-top: 300px;
 }
@@ -26,8 +26,11 @@ a:hover {
 	color: #fff !important;
 }
 
-html {
-  font-size: 1rem;
+.vertical-align {
+	position: fixed !important;
+	width: 100%;
+	top: 35vh !important;
+	/* text-align: center; */
 }
 
 /* check media queries for font-size in main styles.css */
