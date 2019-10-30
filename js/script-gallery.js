@@ -66,45 +66,10 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
-// document.getElementById("modal-root").addEventListener('click', rootclick, false);
-document.querySelector("#modal-root:not(#image)").addEventListener('click', rootclick, true);
-
-/*$("#modal-root").not("#image").addEventListener('click', rootclick)*/;
-
 function rootclick() {
 	modal.style.display = "none";
 }
 
-/*
-setTimeout("loadMasonry()", 100);*/
-
-// onload, onready
-// $(document).ready(function(){})
-// document.readystate
-/*maybe generator function? see: https://www.freecodecamp.org/news/javascript-from-callbacks-to-async-await-1cc090ddad99/*/
+document.querySelector("#modal-root:not(#image)").addEventListener('click', rootclick, true);
 
 
-/*console.time("test");
-function appendToHtml(object, callback) {
-
-var html = "";
-for (let i=0; i<pics.length; i++) {
-	html += `<div class="grid-item col-sm-6 col-md-4"><div class="grid-item-content"><img src="img/${pics[i].file}"></div></div>`;
-}
-
-document.getElementById("test").innerHTML += html;
-setTimeout(function() {callback();}, 100);
-}
-
-function loadMasonry () {
-
-$('.grid').masonry({
-		itemSelector: '.grid-item',
-		columnWidth: '.grid-sizer',
-		percentPosition: true,
-		transitionDuration: '0.2s'
-	})
-}
-
-appendToHtml(pics, loadMasonry);
-*/
