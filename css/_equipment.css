@@ -2,8 +2,9 @@
     background-image: url(../img/film.jpg);
     background-position: center;
     background-repeat:no-repeat;
-    background-size:100%;
+    background-size:cover;
     height: 60vh;
+   
 }
 .equipmentBody{
     background-color: #EDEDED;
