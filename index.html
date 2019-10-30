@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<script>
-		var clientLang = (navigator.language || navigator.userLanguage);
-	if (clientLang.substring(0, 2) == "de") {
-		location.replace("./de/home.html");
-	}
-	else {
-		location.replace("./en/home.html");
-	}
-	</script>
-	<meta charset="UTF-8">
-	<title>Pajakoff Photography</title>
+  <title>Pajakoff Photography</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+<script>
+	var clientLang = (navigator.language || navigator.userLanguage);
+if (clientLang.substring(0, 2) == "de") {
+	location.replace("de/home.html");
+}
+else {
+	location.replace("en/home.html");
+}
+</script>
+  <meta charset="UTF-8">
+  <title>Pajakoff Photography</title>
 </head>
+
 <body>
+	<!-- FALLBACK LANGUAGE SELECT IF SCRIPT FAILS -->
+  <div style="text-align:center">
+    <h3>Welcome to Pajakoff Photography</h3>
+    <a href="en/home.html"><img src="img/eng.png" alt="english"></a>
+    <a href="de/home.html"><img src="img/ger.png" alt="german"></a>
+  </div>
 </body>
+
 </html>
