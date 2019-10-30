@@ -9,6 +9,6 @@
 
 #equipmentTextDiv{
     background-color: rgba(0%, 0%, 0%, 50%);
-    height: 30vh;
-    margin-top: 100px;
+	height: auto;
+    margin-top: 5%;
 }
