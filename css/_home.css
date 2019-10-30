@@ -14,5 +14,20 @@
 
 .insta{
     color: #fff;
-    font-size: 3em!important;
+    font-size: 3em !important;
 }
+
+a {
+	color: #f8f9fa!important;
+}
+
+a:hover {
+	text-decoration: underline !important;
+	color: #fff !important;
+}
+
+html {
+  font-size: 1rem;
+}
+
+/* check media queries for font-size in main styles.css */
