@@ -180,5 +180,35 @@ var photos = `[
 		"file":"img436.jpg",
 		"category":"street",
 		"text":""
+	}, {
+			"id":"4",
+		"file":"H703026-R1-23-24.JPG",
+		"category":"travel",
+		"text":""
+	},{
+		"id":"5",
+		"file":"H703026-R1-26-27.JPG",
+		"category":"travel",
+		"text":""
+	},{
+		"id":"6",
+		"file":"H703028-R1-12-13.JPG",
+		"category":"travel",
+		"text":""
+	},{
+		"id":"7",
+		"file":"img433.jpg",
+		"category":"travel",
+		"text":""
+	},{
+		"id":"8",
+		"file":"DSC_7260.JPG",
+		"category":"travel",
+		"text":""
+	},{
+		"id":"9",
+		"file":"img436.jpg",
+		"category":"travel",
+		"text":""
 	}
 ]`
