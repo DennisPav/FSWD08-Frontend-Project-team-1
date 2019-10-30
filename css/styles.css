@@ -9,8 +9,9 @@
 @import "_equipment.css";
 
 body {
-/*font-family: 'Stoke', serif !important;
-       text-shadow: 2px 2px 4px #000000;*/
+font-family: 'Stoke', serif !important;
+      /* text-shadow: 2px 2px 4px #000000;*/
 }
-h1{font-family: 'Stoke', serif !important;
-       text-shadow: 2px 2px 4px #000000;}
+h1{
+    text-shadow: 2px 2px 4px #000000;
+}
