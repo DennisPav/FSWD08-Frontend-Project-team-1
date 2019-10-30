@@ -24,3 +24,10 @@
 	background-image: url("../img/DSC_7321.jpg")
 }
 
+.hoverbox {
+	transition: 1.5s;
+}
+
+.hoverbox a {
+	text-decoration: none !important;
+}
