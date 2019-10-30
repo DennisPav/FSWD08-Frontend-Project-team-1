@@ -18,6 +18,9 @@ html{
 h1, .h1{
     text-shadow: 2px 2px 4px #000000;
 }
+.nicebg{
+    background-color: #EDEDED;
+}
 
     #heading1 {font-size: 1.8rem;}
     #heading2 {font-size: 2.3rem;}
