@@ -1,14 +1,12 @@
-#equipment{
-    background-image: url(../img/film.jpg);
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    height: 60vh;
-   
+#equipment {
+  background-image: url(../img/film.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
-#equipmentTextDiv{
-    background-color: rgba(0%, 0%, 0%, 50%);
-	height: auto;
-    margin-top: 5%;
+.equipmentTextDiv {
+  background-color: rgba(0, 0, 0, 0.6);
 }
