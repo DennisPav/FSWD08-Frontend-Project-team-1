@@ -46,169 +46,120 @@ var photos = `[
 		"category":"street",
 		"text":""
 	},{
-		"id":"1",
+		"id":"10",
+		"file":"000007.JPG",
+		"category":"street",
+		"text":""
+	},{
+		"id":"11",
+		"file":"000010_a.JPG",
+		"category":"street",
+		"text":""
+	},{
+		"id":"12",
+		"file":"000011.JPG",
+		"category":"street",
+		"text":""
+	},{
+		"id":"13",
+		"file":"000015.JPG",
+		"category":"street",
+		"text":""
+	},{
+		"id":"14",
+		"file":"000019.JPG",
+		"category":"street",
+		"text":""
+	},{
+		"id":"15",
+		"file":"000020.JPG",
+		"category":"street",
+		"text":""
+	},{
+		"id":"16",
+		"file":"000023.JPG",
+		"category":"street",
+		"text":""
+	},{
+		"id":"17",
+		"file":"000024.JPG",
+		"category":"street",
+		"text":""
+	},{
+		"id":"18",
+		"file":"000026.JPG",
+		"category":"street",
+		"text":""
+	},{
+		"id":"19",
+		"file":"000029.JPG",
+		"category":"street",
+		"text":""
+	},{
+		"id":"20",
+		"file":"000031.JPG",
+		"category":"street",
+		"text":""
+	},{
+		"id":"21",
+		"file":"000033.JPG",
+		"category":"street",
+		"text":""
+	},{
+		"id":"22",
 		"file":"000036.JPG",
-		"category":"akt",
-		"text":""
-	},{
-		"id":"2",
-		"file":"DSC_7260.JPG",
-		"category":"akt",
-		"text":""
-	},{
-		"id":"3",
-		"file":"DSC_7321.JPG",
-		"category":"akt",
-		"text":""
-	},{
-		"id":"4",
-		"file":"H703026-R1-23-24.JPG",
-		"category":"portrait",
-		"text":""
-	},{
-		"id":"5",
-		"file":"H703026-R1-26-27.JPG",
-		"category":"portrait",
-		"text":""
-	},{
-		"id":"6",
-		"file":"H703028-R1-12-13.JPG",
-		"category":"portrait",
-		"text":""
-	},{
-		"id":"7",
-		"file":"img433.jpg",
 		"category":"street",
 		"text":""
 	},{
-		"id":"8",
-		"file":"DSC_7260.JPG",
-		"category":"portrait",
-		"text":""
-	},{
-		"id":"9",
-		"file":"img436.jpg",
+		"id":"23",
+		"file":"000038.JPG",
 		"category":"street",
 		"text":""
 	},{
-		"id":"1",
-		"file":"000036.JPG",
-		"category":"akt",
-		"text":""
-	},{
-		"id":"2",
-		"file":"DSC_7260.JPG",
-		"category":"akt",
-		"text":""
-	},{
-		"id":"3",
-		"file":"DSC_7321.JPG",
-		"category":"akt",
-		"text":""
-	},{
-		"id":"4",
-		"file":"H703026-R1-23-24.JPG",
-		"category":"portrait",
-		"text":""
-	},{
-		"id":"5",
-		"file":"H703026-R1-26-27.JPG",
-		"category":"portrait",
-		"text":""
-	},{
-		"id":"6",
-		"file":"H703028-R1-12-13.JPG",
-		"category":"portrait",
-		"text":""
-	},{
-		"id":"7",
-		"file":"img433.jpg",
+		"id":"24",
+		"file":"img429.jpg",
 		"category":"street",
 		"text":""
 	},{
-		"id":"8",
-		"file":"DSC_7260.JPG",
-		"category":"portrait",
-		"text":""
-	},{
-		"id":"9",
-		"file":"img436.jpg",
+		"id":"25",
+		"file":"img431.jpg",
 		"category":"street",
 		"text":""
 	},{
-		"id":"1",
-		"file":"000036.JPG",
-		"category":"akt",
-		"text":""
-	},{
-		"id":"2",
-		"file":"DSC_7260.JPG",
-		"category":"akt",
-		"text":""
-	},{
-		"id":"3",
-		"file":"DSC_7321.JPG",
-		"category":"akt",
-		"text":""
-	},{
-		"id":"4",
-		"file":"H703026-R1-23-24.JPG",
+		"id":"26",
+		"file":"img432.jpg",
 		"category":"portrait",
 		"text":""
 	},{
-		"id":"5",
-		"file":"H703026-R1-26-27.JPG",
-		"category":"portrait",
-		"text":""
-	},{
-		"id":"6",
-		"file":"H703028-R1-12-13.JPG",
-		"category":"portrait",
-		"text":""
-	},{
-		"id":"7",
-		"file":"img433.jpg",
+		"id":"27",
+		"file":"img434.jpg",
 		"category":"street",
 		"text":""
 	},{
-		"id":"8",
-		"file":"DSC_7260.JPG",
+		"id":"28",
+		"file":"img437.jpg",
 		"category":"portrait",
 		"text":""
 	},{
-		"id":"9",
-		"file":"img436.jpg",
+		"id":"29",
+		"file":"img438.jpg",
 		"category":"street",
 		"text":""
-	}, {
-			"id":"4",
-		"file":"H703026-R1-23-24.JPG",
-		"category":"travel",
+	},{
+		"id":"30",
+		"file":"img439.jpg",
+		"category":"street",
 		"text":""
 	},{
-		"id":"5",
-		"file":"H703026-R1-26-27.JPG",
-		"category":"travel",
+		"id":"31",
+		"file":"img440.jpg",
+		"category":"street",
 		"text":""
 	},{
-		"id":"6",
-		"file":"H703028-R1-12-13.JPG",
-		"category":"travel",
+		"id":"32",
+		"file":"img441.jpg",
+		"category":"street",
 		"text":""
-	},{
-		"id":"7",
-		"file":"img433.jpg",
-		"category":"travel",
-		"text":""
-	},{
-		"id":"8",
-		"file":"DSC_7260.JPG",
-		"category":"travel",
-		"text":""
-	},{
-		"id":"9",
-		"file":"img436.jpg",
-		"category":"travel",
-		"text":""
-	}
+	},
+
 ]`
