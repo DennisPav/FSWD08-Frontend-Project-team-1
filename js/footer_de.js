@@ -6,8 +6,8 @@ footerElem[0].innerHTML = `
       <h1 class="display-5 text-center ">Pajaphot</h1>
     </div>
     <div class="col-md-6 col-lg-4 text-center mt-5">
-      <p><b>Addresse: </b>Vienna</p>
-      <p><b>Land: </b>Austria</p>
+      <p><b>Addresse: </b>Wien</p>
+      <p><b>Land: </b>Österreich</p>
       <p><b>Telefon: </b>+43 676 573 42 92</p>
       <p><b>Email: </b>pajaphot@gmail.com</p>
     </div>
