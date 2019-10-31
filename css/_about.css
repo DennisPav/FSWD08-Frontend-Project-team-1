@@ -1,7 +1,3 @@
-body, html {
-  height: 100%;
-}
-
 .bg {
   background-image: url("../img/img433.jpg");
   height: 100%;
@@ -10,51 +6,29 @@ body, html {
   background-size: cover;
 }
 
-#wrapper {
-	display: flex;
-	width: 60%;
-	height: 450px;
-	margin-top: 50px;
-	margin-left: 300px;
-	border: 1px solid black;
-	background-color: rgba(0, 0, 0, 0.4);
-	}
-/* @media screen and (max-width: 400px) {
-	#wrapper {
-		width: 30%;
-	} */
-
-
-#abouttop{
-	width: 100%;
-	
-}
-#aboutimage {
-	width: 300px;
-	height: 100%;	
+.about1 {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-#abouthead{
-	padding-top: 50px;
-}
-#abouttext {
-	height: 40px;
+.about1 p::first-letter {
+  font-size: 200%;
 }
 
-#more {
-	padding-top: 50px;
-}
-
-#imagecontainer {
-	border-right: 1px solid black;
+img#myself {
+  border: 0.5vw outset gray;
+  width: 18%;
+  min-width: 150px;
+  float: left;
+  margin: 0 20px 10px 0;
 }
 
 .texteffect {
-	text-shadow: 2px 2px 8px #FFFFFF;
-	padding-left: 5px;
+  text-shadow: 2px 2px 8px #FFFFFF;
+  text-align: center;
 }
 
+.about2 h5 {
+	text-align: center;
+}
 
 /*responsive*/
-
- 

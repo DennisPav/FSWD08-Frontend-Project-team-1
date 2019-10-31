@@ -1,4 +1,4 @@
-.col-12 {
+.hoverbox {
 	width: 250px;
 	height: 300px;
 	background-size: cover;
@@ -6,6 +6,8 @@
 	background-position: center;
 	margin-bottom: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-transition: 1.5s;
+	transition: 1.5s;
 }
 
 #ov-portrait {
@@ -22,10 +24,6 @@
 
 #ov-diverse {
 	background-image: url("../img/DSC_7321.jpg")
-}
-
-.hoverbox {
-	transition: 1.5s;
 }
 
 .hoverbox a {
