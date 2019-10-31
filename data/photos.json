@@ -2,8 +2,8 @@
 var photos = `[
 	{
 		"id":"1",
-		"file":"000036.JPG",
-		"category":"travel",
+		"file":"000036_a.JPG",
+		"category":"akt",
 		"text":"Lorem ipsum dolor sit amet."
 	},{
 		"id":"2",
