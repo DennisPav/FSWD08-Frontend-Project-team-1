@@ -43,7 +43,7 @@ if (document.getElementById("portrait")) {
 
 	appendToHtml(pics).then(loadMasonry);
 
-} else if (document.getElementById("diverse")) {
+} else if (document.getElementById("nudeart")) {
 	var pics = pics.filter(obj => {
 	return obj.category === "akt";});
 
