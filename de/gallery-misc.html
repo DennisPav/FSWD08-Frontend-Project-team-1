@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- If IE use the latest rendering engine -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Set the page to the width of the device and set the zoom level -->
+  <meta name="viewport" content="width = device-width, initial-scale = 1">
+  <title>Pajakoff Photography</title>
+  <!-- css   -->
+  <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- local css -->
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- js libraries: jquery, popper, bootstrap, fontawesome -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/bootstrap.min.js"></script>
+  <!-- masonry library -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=Stoke&display=swap" rel="stylesheet">
+</head>
+
+<body class="nicebg">
+  <!--navbar-->
+  <div id="nav"></div>
+  <div class="container text-center py-4">
+    <h1 class="display-4 pb-4">Akt Fotografie</h1>
+    <p class="text-center h4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, maxime sed architecto eveniet. Nulla quasi aliquid velit, quidem dicta odio.</p>
+    <hr>
+  </div>
+  <div class="container" id="diverse">
+    <div class="grid" id="gallery-container">
+      <div class="grid-sizer col-sm-6 col-md-4"></div>
+    </div>
+  </div>
+  <div id="modal-root" class="modal">
+    <span class="close">&times;</span>
+    <img src="" class="modal-content" id="image" alt="">
+    <div id="caption" class="container text-center text-white pt-3"></div>
+  </div>
+  <!-- scroll button -->
+  <div id="scrollBtn"><span>^</span></div>
+  <!-- footer -->
+  <footer></footer>
+  <script src="../js/footer_en.js"></script>
+  <script src="../js/nav_en.js"></script>
+  <!-- javascript -->
+  <script src="../data/photos.json"></script>
+  <script src="../js/script-gallery.js"></script>
+  <script src="../js/scroll.js"></script>
+</body>
+
+</html>
