@@ -2,13 +2,13 @@
 $("document").ready(function() {
   $(document).scroll(function() {
     var y = $(this).scrollTop();
-    if (y > 500) {
+    if (y > 700) {
       console.log("hi");
 
       $("#scrollBtn").fadeIn(2000);
 
     } else {
-      $("#scrollBtn").fadeOut(33);
+      $("#scrollBtn").fadeOut(100);
     }
   });
 
