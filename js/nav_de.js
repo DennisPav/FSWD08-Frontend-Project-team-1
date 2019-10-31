@@ -1,3 +1,6 @@
+var url = window.location.pathname;
+var filename = url.substring(url.lastIndexOf('/')+1);
+
 var navElem = document.getElementById('nav');
 navElem.innerHTML = `
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -37,8 +40,8 @@ navElem.innerHTML = `
             Sprache
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-            <a class="dropdown-item" href="../de/contact.html">deutsch</a>
-            <a class="dropdown-item" href="../en/contact.html">english</a>
+            <a class="dropdown-item" href="../de/${filename}">deutsch</a>
+            <a class="dropdown-item" href="../en/${filename}">english</a>
           </div>
         </li>
       </ul>

@@ -9,7 +9,7 @@ footerElem[0].innerHTML = `
       <p><b>Addresse: </b>Vienna</p>
       <p><b>Land: </b>Austria</p>
       <p><b>Telefon: </b>+43 676 573 42 92</p>
-      <p><b>E-mail: </b>pajaphot@gmail.com</p>
+      <p><b>Email: </b>pajaphot@gmail.com</p>
     </div>
     <div class="col-md-6 col-lg-4 mt-5">
       <p class="text-center"><a href="#" class="fa  fa-instagram footer-fa footer-insta ml-3"> dessislaw</a></p>
