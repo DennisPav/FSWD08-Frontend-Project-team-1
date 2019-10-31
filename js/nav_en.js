@@ -18,7 +18,7 @@ navElem.innerHTML = `
             <a class="dropdown-item" href="gallery-portrait.html">Portrait</a>
             <a class="dropdown-item" href="gallery-street.html">Street Art</a>
             <a class="dropdown-item" href="gallery-travel.html">Travel</a>
-            <a class="dropdown-item" href="gallery-misc.html">Miscellaneous</a>
+            <a class="dropdown-item" href="gallery-nudeart.html">Nude Art</a>
           </div>
         </li>
         <li class="nav-item ">
