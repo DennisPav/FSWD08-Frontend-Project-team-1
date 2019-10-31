@@ -15,7 +15,7 @@ navElem.innerHTML = `
         </li>
         <li class="nav-item dropdown dmenu">
           <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDrop" aria-haspopup="true" aria-expanded="false">
-            GALLERY
+            GALERIE
           </a>
           <div class="dropdown-menu mt-0" aria-labelledby="navbarDrop">
             <a class="dropdown-item" href="gallery-portrait.html">Portrait</a>
